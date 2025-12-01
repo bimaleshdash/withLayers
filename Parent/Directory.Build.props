@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <!-- Centralized package version used by library projects. Update this to bump the package version across the repo. -->
+    <PackageVersion>1.0.0</PackageVersion>
+    <!-- Centralized Selenium package version for library projects (used by MyLib). -->
+    <SeleniumWebDriverVersion>4.13.0</SeleniumWebDriverVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Use ProjectReference for local development; replace with PackageReference to consume the published package -->
+  <ProjectReference Include="../Parent/src/MyLib/MyLib.csproj" />
+  <!-- Example package reference for consuming a published package (comment out ProjectReference when using this)
+  <PackageReference Include="MyLib" Version="$(PackageVersion)" />
+    -->
+  </ItemGroup>
+</Project>
